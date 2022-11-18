@@ -109,7 +109,7 @@ spec:
         imagePullPolicy: Always
         env:
         - name: TZ
-          value: "America/New_York"
+          value: "Europe/Zurich"
         - name: WEBPASSWORD
           value: "secret"
         volumeMounts:
