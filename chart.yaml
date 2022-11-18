@@ -69,6 +69,7 @@ metadata:
   name: pihole
   namespace: pihole
 spec:
+  type: LoadBalancer
   selector:
     app: pihole
   ports:
