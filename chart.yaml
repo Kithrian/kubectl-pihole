@@ -8,9 +8,6 @@ spec:
   resources:
     requests:
       storage: 1Gi
-  selector:
-    matchLabels:
-      directory: etc
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -21,10 +18,6 @@ spec:
   resources:
     requests:
       storage: 500Mi
-  selector:
-    matchLabels:
-      directory: dnsmasq.d
-
 ---
 apiVersion: apps/v1
 kind: Deployment
