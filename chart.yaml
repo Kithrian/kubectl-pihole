@@ -79,5 +79,3 @@ spec:
     targetPort: 53
     protocol: UDP
     name: dns-udp
-  externalIPs:
-  - node1.ip.address
