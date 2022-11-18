@@ -5,6 +5,8 @@ metadata:
   name: pihole-local-etc-claim
   namespace: pihole
 spec:
+  accessModes:
+  - ReadWriteOnce
   resources:
     requests:
       storage: 1Gi
@@ -15,6 +17,8 @@ metadata:
   name: pihole-local-dnsmasq-claim
   namespace: pihole
 spec:
+  accessModes:
+  - ReadWriteOnce
   resources:
     requests:
       storage: 500Mi
